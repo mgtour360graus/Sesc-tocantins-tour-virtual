@@ -1,0 +1,121 @@
+{
+  "units": [
+    {
+      "id": "centro-de-atividades-palmas",
+      "name": "Centro de Atividades Palmas",
+      "city": "Palmas",
+      "number": "01",
+      "image": "assets/centro-de-atividades-palmas-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/centro-de-atividades-palmas/",
+      "lat": -10.160706792741063,
+      "lon": -48.32336688547729
+    },
+    {
+      "id": "sesc-tocantins-palmas1",
+      "name": "Sesc Vila Aureny",
+      "city": "Palmas",
+      "number": "02",
+      "image": "assets/sesc-tocantins-palmas1-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/sesc-tocantins-palmas1/index.htm",
+      "lat": -10.3155418,
+      "lon": -48.3112547
+    },
+    {
+      "id": "centro-de-atividades-araguaina",
+      "name": "Centro de Atividades Araguaína",
+      "city": "Araguaína",
+      "number": "03",
+      "image": "assets/centro-de-atividades-araguaina-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/centro-de-atividades-araguaina/",
+      "lat": -7.200512694801598,
+      "lon": -48.22029328550042
+    },
+    {
+      "id": "sesc-morada-do-sol-araguaina",
+      "name": "Sesc Morada do Sol",
+      "city": "Araguaína",
+      "number": "04",
+      "image": "assets/sesc-morada-do-sol-araguaina-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/sesc-morada-do-sol-araguaina/",
+      "lat": -7.197053592778296,
+      "lon": -48.17883048792582
+    },
+    {
+      "id": "araguaina-comunidade",
+      "name": "Sesc Comunidade",
+      "city": "Araguaína",
+      "number": "05",
+      "image": "assets/araguaina-comunidade-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/araguaina-comunidade/",
+      "lat": -7.182862694814049,
+      "lon": -48.19639038550056
+    },
+    {
+      "id": "Centro-de-Atividades-Gurupi",
+      "name": "Centro de Atividades Gurupi",
+      "city": "Gurupi",
+      "number": "06",
+      "image": "assets/Centro-de-Atividades-Gurupi-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/Centro-de-Atividades-Gurupi/",
+      "lat": -11.744204780727612,
+      "lon": -49.08024171540787
+    },
+    {
+      "id": "sesc-tocantins-primavera-gurupi",
+      "name": "Sesc Parque Primavera",
+      "city": "Gurupi",
+      "number": "07",
+      "image": "assets/sesc-tocantins-primavera-gurupi-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/sesc-tocantins-primavera-gurupi/",
+      "lat": -11.745214891668626,
+      "lon": -49.06337698546167
+    },
+    {
+      "id": "sesc-tocantins-porto-nacional",
+      "name": "Sesc Porto Nacional",
+      "city": "Porto Nacional",
+      "number": "08",
+      "image": "assets/sesc-tocantins-porto-nacional-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/sesc-tocantins-porto-nacional/",
+      "lat": -10.723258462815588,
+      "lon": -48.39491749745389
+    },
+    {
+      "id": "sesc-trocantins-paraiso",
+      "name": "Sesc Paraíso",
+      "city": "Paraíso do Tocantins",
+      "number": "09",
+      "image": "assets/sesc-trocantins-paraiso-thumbnail.jpg",
+      "url": "https://mgtour360graus.github.io/sesc-trocantins-paraiso/",
+      "lat": -10.1537351542424,
+      "lon": -48.894744525725145
+    }
+  ],
+  "social": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sesctocantins/",
+      "accent": "#E1306C"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/sescto",
+      "accent": "#1877F2"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@SESCTO",
+      "accent": "#FF0000"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/company/sesctocantins/?originalSubdomain=br",
+      "accent": "#0A66C2"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/SescTO",
+      "accent": "#111111"
+    }
+  ]
+}

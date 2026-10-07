@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mgtour360graus.github.io/Sesc-tocantins-tour-virtual/sitemap.xml

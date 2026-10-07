@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Sesc Tocantins · Conheça nossas unidades em 360°</title>
+  <meta name="description" content="Explore nove unidades do Sesc Tocantins em tours virtuais 360°. Escolha uma unidade, navegue pelos espaços e encontre sua localização no mapa.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://mgtour360graus.github.io/Sesc-tocantins-tour-virtual/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Sesc Tocantins · Nossas unidades em 360°">
+  <meta property="og:description" content="Conheça nove unidades do Sesc Tocantins. Escolha seu tour virtual, explore os espaços e encontre as unidades no mapa.">
+  <meta property="og:url" content="https://mgtour360graus.github.io/Sesc-tocantins-tour-virtual/">
+  <meta property="og:image" content="https://mgtour360graus.github.io/Sesc-tocantins-tour-virtual/assets/logo-sesc.webp">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#004C99">
+  <link rel="icon" href="assets/logo-sesc.webp">
+  <link rel="stylesheet" href="assets/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/leaflet/leaflet.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#unidades">Ir para as unidades</a>
+  <header class="header"><div class="container header-inner">
+    <a class="brand" href="#inicio" aria-label="Sesc Tocantins, início"><img src="assets/logo-sesc.webp" alt="Sesc · Fecomércio · Senac" width="80" height="80"><span><strong>Tocantins</strong><small>NOSSAS UNIDADES EM 360°</small></span></a>
+    <nav aria-label="Navegação principal"><a href="#unidades">Nossas unidades</a><a href="#localizacoes">Localizações</a><a href="#conecte">Conecte-se</a></nav>
+    <a class="official" href="https://www.sescto.com.br/" target="_blank" rel="noopener noreferrer">Site do Sesc <span aria-hidden="true">↗</span></a>
+  </div></header>
+  <main id="inicio">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span></span> SESC TOCANTINS · VISITA VIRTUAL</p><h1 id="hero-title">Um novo olhar.<br><span>Muitos caminhos.</span></h1><p class="lead">O Sesc está perto de você.<br>Agora, também a um clique.</p><p class="intro">Explore os espaços, descubra cada unidade e escolha por onde começar sua visita em 360°.</p><a class="button yellow" href="#unidades">Escolha sua unidade <span aria-hidden="true">↗</span></a><div class="hero-stats"><span><strong>09</strong> unidades para explorar</span><span><strong>05</strong> cidades do Tocantins</span></div></div>
+      <div class="hero-visual"><img src="assets/centro-de-atividades-palmas-thumbnail.jpg" alt="Capa do tour virtual do Centro de Atividades Sesc Palmas" fetchpriority="high"><div class="photo-shade"></div><span class="tour-tag">360° <span>VISITA VIRTUAL</span></span><div class="hero-caption"><span>COMECE SUA EXPERIÊNCIA</span><h2>Centro de Atividades Palmas</h2><button type="button" data-tour="centro-de-atividades-palmas">Explorar a unidade <span aria-hidden="true">↗</span></button></div><div class="orbit" aria-hidden="true">360°</div></div>
+    </section>
+    <section id="unidades" class="units-section" aria-labelledby="units-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">ESCOLHA SEU PRÓXIMO DESTINO</p><h2 id="units-title">Nossas unidades.<br><span>A sua próxima descoberta.</span></h2></div><p>Clique em uma unidade para entrar no tour.<br>Ao terminar, feche a janela e continue explorando.</p></div>
+      <div id="unit-grid" class="unit-grid"></div>
+      <noscript><p>Ative o JavaScript para usar os tours e o mapa interativo. <a href="https://www.sescto.com.br/">Acesse o site do Sesc Tocantins.</a></p></noscript>
+      <p id="data-error" class="error" hidden>Não foi possível carregar as unidades. Atualize a página para tentar novamente.</p>
+    </div></section>
+    <section id="localizacoes" class="map-section container" aria-labelledby="map-title">
+      <div class="section-heading"><div><p class="eyebrow">PERTO DE VOCÊ, EM TODO CAMINHO</p><h2 id="map-title">Encontre o Sesc<br><span>no Tocantins.</span></h2></div><p>Arraste o mapa e amplie para ver as unidades.<br>Toque em um marcador para conhecer o local.</p></div>
+      <div class="map-shell"><aside class="map-sidebar"><span class="mini-eyebrow">9 UNIDADES · 5 CIDADES</span><h3>Por onde vamos?</h3><p>Escolha uma cidade no mapa ou uma unidade abaixo.</p><div id="map-list"></div><button id="show-all" class="show-all" type="button">Ver todas no mapa <span aria-hidden="true">↗</span></button></aside><div class="map-main"><div id="map" role="region" aria-label="Mapa interativo das unidades do Sesc Tocantins"></div><span class="map-hint" aria-hidden="true">↔ Arraste para explorar</span><p id="map-error" class="error" hidden>O mapa está indisponível. Você pode escolher uma unidade na lista ao lado.</p></div></div>
+    </section>
+    <section id="conecte" class="connect"><div class="container connect-inner"><div><p class="eyebrow">CONTINUE ESSA CONEXÃO</p><h2>Cuidar das pessoas<br>é a nossa essência.</h2><p>Acompanhe o Sesc Tocantins e faça parte dessa história.</p></div><div class="connect-links"><div id="social-links" class="social-links" aria-label="Redes sociais do Sesc Tocantins"></div><div class="contact-links"><a href="tel:+556332199100">Ligue para o Sesc <strong>(63) 3219-9100 ↗</strong></a><a href="https://www.sescto.com.br/" target="_blank" rel="noopener noreferrer">Visite nosso site <strong>sescto.com.br ↗</strong></a></div></div></div></section>
+  </main>
+  <footer class="container footer"><a class="brand" href="#inicio"><img src="assets/logo-sesc.webp" alt="Sesc · Fecomércio · Senac" width="70" height="70"><span><strong>Sesc Tocantins</strong><small>SISTEMA FECOMÉRCIO TOCANTINS</small></span></a><p>Uma visita. Muitas possibilidades.<br><span>Tours virtuais das unidades do Sesc Tocantins.</span></p><a href="#inicio">Voltar ao início ↑</a></footer>
+  <dialog id="tour-dialog" aria-labelledby="tour-title"><div class="tour-window"><div class="tour-bar"><div><span class="mini-eyebrow" id="tour-city"></span><h2 id="tour-title"></h2></div><div class="tour-actions"><a id="external-tour" target="_blank" rel="noopener noreferrer" aria-label="Abrir o tour em nova aba">Abrir em nova aba ↗</a><button id="close-tour" type="button" aria-label="Fechar tour e voltar às unidades">Fechar <span aria-hidden="true">×</span></button></div></div><div class="frame-shell"><p class="frame-status" id="frame-status" role="status">Preparando sua visita…</p><iframe id="tour-frame" title="Tour virtual da unidade selecionada" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="tour-bottom"><span>Explore os ambientes. Depois, escolha sua próxima unidade.</span><span>SESC TOCANTINS · 360°</span></div></div></dialog>
+</body>
+</html>
