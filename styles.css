@@ -13,3 +13,8 @@
 .hero-caption{position:relative;bottom:auto;left:auto;right:auto;padding:26px 30px}
 .orbit{top:auto;bottom:24px}
 @media(max-width:760px){.hero-caption{padding:22px 23px}.hero-caption h2{max-width:260px}.orbit{bottom:26px}}
+
+/* Marca oficial e alinhamento dos nomes completos na revisão 09/11. */
+.header .brand img{width:160px;height:60px}.footer .brand img{width:150px;height:56px}
+.unit-card{display:flex;flex-direction:column}.card-photo{flex-shrink:0}.card-body{flex:1;display:flex;flex-direction:column}.card-link{margin-top:auto}
+@media(max-width:760px){.header .brand img{width:118px;height:46px}.header .brand strong{font-size:17px}.header .brand small{font-size:7px;letter-spacing:.7px}.footer .brand img{width:130px;height:48px}}

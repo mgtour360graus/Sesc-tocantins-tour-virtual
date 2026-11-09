@@ -48,4 +48,4 @@ function initMap(){
   document.getElementById('show-all').addEventListener('click',showAll);
   new ResizeObserver(()=>state.map.invalidateSize()).observe(document.getElementById('map'));
 }
-fetch('units.json').then(r=>{if(!r.ok)throw Error('Unidades indisponíveis');return r.json();}).then(data=>{state.units=data.units;renderUnits();renderSocial(data.social);initMap();}).catch(()=>{document.getElementById('data-error').hidden=false;});
+fetch('units.json?v=revisao-20261109').then(r=>{if(!r.ok)throw Error('Unidades indisponíveis');return r.json();}).then(data=>{state.units=data.units;renderUnits();renderSocial(data.social);initMap();}).catch(()=>{document.getElementById('data-error').hidden=false;});

@@ -2,40 +2,40 @@
   "units": [
     {
       "id": "centro-de-atividades-palmas",
-      "name": "Centro de Atividades Palmas",
+      "name": "Centro de Atividades Sesc Palmas",
       "city": "Palmas",
       "number": "01",
-      "image": "assets/centro-de-atividades-palmas-thumbnail.jpg",
+      "image": "assets/centro-de-atividades-palmas-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/centro-de-atividades-palmas/",
       "lat": -10.160706792741063,
       "lon": -48.32336688547729
     },
     {
       "id": "sesc-tocantins-palmas1",
-      "name": "Sesc Vila Aureny",
+      "name": "Sesc Aureny",
       "city": "Palmas",
       "number": "02",
-      "image": "assets/sesc-tocantins-palmas1-thumbnail.jpg",
+      "image": "assets/sesc-tocantins-palmas1-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/sesc-tocantins-palmas1/index.htm",
       "lat": -10.3155418,
       "lon": -48.3112547
     },
     {
       "id": "centro-de-atividades-araguaina",
-      "name": "Centro de Atividades Araguaína",
+      "name": "Centro de Atividades Sesc Araguaína - Anselmo da Silva Moraes",
       "city": "Araguaína",
       "number": "03",
-      "image": "assets/centro-de-atividades-araguaina-thumbnail.jpg",
+      "image": "assets/centro-de-atividades-araguaina-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/centro-de-atividades-araguaina/",
       "lat": -7.200512694801598,
       "lon": -48.22029328550042
     },
     {
       "id": "sesc-morada-do-sol-araguaina",
-      "name": "Sesc Morada do Sol",
+      "name": "Sesc Morada do Sol - Hugo de Carvalho",
       "city": "Araguaína",
       "number": "04",
-      "image": "assets/sesc-morada-do-sol-araguaina-thumbnail.jpg",
+      "image": "assets/sesc-morada-do-sol-araguaina-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/sesc-morada-do-sol-araguaina/",
       "lat": -7.197053592778296,
       "lon": -48.17883048792582
@@ -45,17 +45,17 @@
       "name": "Sesc Comunidade",
       "city": "Araguaína",
       "number": "05",
-      "image": "assets/araguaina-comunidade-thumbnail.jpg",
+      "image": "assets/araguaina-comunidade-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/araguaina-comunidade/",
       "lat": -7.182862694814049,
       "lon": -48.19639038550056
     },
     {
       "id": "Centro-de-Atividades-Gurupi",
-      "name": "Centro de Atividades Gurupi",
+      "name": "Centro de Atividades Sesc Gurupi",
       "city": "Gurupi",
       "number": "06",
-      "image": "assets/Centro-de-Atividades-Gurupi-thumbnail.jpg",
+      "image": "assets/Centro-de-Atividades-Gurupi-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/Centro-de-Atividades-Gurupi/",
       "lat": -11.744204780727612,
       "lon": -49.08024171540787
@@ -65,7 +65,7 @@
       "name": "Sesc Parque Primavera",
       "city": "Gurupi",
       "number": "07",
-      "image": "assets/sesc-tocantins-primavera-gurupi-thumbnail.jpg",
+      "image": "assets/sesc-tocantins-primavera-gurupi-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/sesc-tocantins-primavera-gurupi/",
       "lat": -11.745214891668626,
       "lon": -49.06337698546167
@@ -75,17 +75,17 @@
       "name": "Sesc Porto Nacional",
       "city": "Porto Nacional",
       "number": "08",
-      "image": "assets/sesc-tocantins-porto-nacional-thumbnail.jpg",
+      "image": "assets/sesc-tocantins-porto-nacional-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/sesc-tocantins-porto-nacional/",
       "lat": -10.723258462815588,
       "lon": -48.39491749745389
     },
     {
       "id": "sesc-trocantins-paraiso",
-      "name": "Sesc Paraíso",
+      "name": "Sesc Paraíso do Tocantins",
       "city": "Paraíso do Tocantins",
       "number": "09",
-      "image": "assets/sesc-trocantins-paraiso-thumbnail.jpg",
+      "image": "assets/sesc-trocantins-paraiso-revisao-20261109.png",
       "url": "https://mgtour360graus.github.io/sesc-trocantins-paraiso/",
       "lat": -10.1537351542424,
       "lon": -48.894744525725145
